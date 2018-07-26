@@ -1,3 +1,4 @@
+
 #include <Arduino.h>
 
 #include <RFTransmitter.h>
@@ -16,7 +17,7 @@ void setup() {
 }
 
 void sendMessage(bool resend) {
-  char *msg = "Hello World!";
+  char *msg = "Hello World";
   Serial.println("sending...");
   digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
 
